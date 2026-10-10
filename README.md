@@ -1,0 +1,1 @@
+# TermsofServiceCoopIQ.github.io
