@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terms of Service | CoopIQ</title>
+<meta name="description" content="The rules for using CoopIQ's WhatsApp assistant, mobile app and farm health services.">
+<!--
+  BEFORE YOU PUBLISH: search this file for class="todo" and replace every highlighted
+  placeholder (contact email, address, country for governing law). Then delete this comment.
+  This page links to privacy-policy.html. If you host the policy at a different address, update those links.
+-->
+<style>
+  :root {
+    --bg: #f6f8f4;
+    --surface: #ffffff;
+    --text: #1d2a22;
+    --muted: #55645a;
+    --brand: #1f6b43;
+    --brand-dark: #154a2e;
+    --accent: #d99a00;
+    --accent-soft: #fff3cf;
+    --rule: #d5ddd4;
+    --link: #17623b;
+    --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #101713;
+      --surface: #17211b;
+      --text: #e6eee8;
+      --muted: #a2b2a7;
+      --brand: #5fbf86;
+      --brand-dark: #7fd3a1;
+      --accent: #f0b429;
+      --accent-soft: #2e2a14;
+      --rule: #2b3a30;
+      --link: #7fd3a1;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 1.5rem; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--serif);
+    font-size: 1.0625rem;
+    line-height: 1.7;
+  }
+
+  a { color: var(--link); text-underline-offset: 0.18em; }
+  a:focus-visible, summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+
+  .skip { position: absolute; left: -999px; top: 0; background: var(--brand-dark); color: #fff; padding: .6rem 1rem; z-index: 10; }
+  .skip:focus { left: 0; }
+
+  header.site {
+    background: var(--brand-dark);
+    color: #f2f8f4;
+    padding: 2.75rem 1.25rem 2.5rem;
+  }
+  header.site .wrap { max-width: 1040px; margin: 0 auto; }
+  .brand {
+    font-family: var(--sans);
+    font-weight: 800;
+    font-size: 1.15rem;
+    letter-spacing: .01em;
+    margin: 0 0 1.5rem;
+  }
+  .brand span { color: var(--accent); }
+  header.site h1 {
+    font-family: var(--sans);
+    font-size: clamp(2rem, 5vw, 3rem);
+    line-height: 1.1;
+    font-weight: 800;
+    letter-spacing: -.02em;
+    margin: 0 0 .75rem;
+  }
+  header.site p { margin: 0; max-width: 46rem; color: #d3e4d9; font-size: 1.05rem; }
+  header.site .updated { margin-top: 1rem; font-family: var(--sans); font-size: .9rem; color: #b5ccbd; }
+
+  .layout {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 4rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  @media (min-width: 900px) {
+    .layout { grid-template-columns: 230px minmax(0, 1fr); gap: 3.5rem; }
+  }
+
+  nav.toc { font-family: var(--sans); font-size: .93rem; }
+  nav.toc h2 { font-size: .95rem; margin: 0 0 .6rem; color: var(--muted); font-weight: 700; }
+  nav.toc ol { margin: 0; padding: 0; list-style: none; border-left: 2px solid var(--rule); }
+  nav.toc li a {
+    display: block;
+    padding: .32rem 0 .32rem .9rem;
+    margin-left: -2px;
+    border-left: 2px solid transparent;
+    color: var(--muted);
+    text-decoration: none;
+  }
+  nav.toc li a:hover { color: var(--brand-dark); border-left-color: var(--brand); }
+  @media (min-width: 900px) { nav.toc { position: sticky; top: 1.5rem; align-self: start; } }
+  @media (max-width: 899px) {
+    nav.toc { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 1rem 1.1rem; }
+    nav.toc ol { border-left: 0; columns: 2; column-gap: 1.5rem; }
+    nav.toc li a { padding-left: 0; border-left: 0; }
+  }
+  @media (max-width: 520px) { nav.toc ol { columns: 1; } }
+
+  main { max-width: 44rem; }
+  main section { padding-top: .5rem; margin-bottom: 2.4rem; }
+  main h2 {
+    font-family: var(--sans);
+    font-size: 1.45rem;
+    line-height: 1.25;
+    letter-spacing: -.01em;
+    margin: 0 0 .8rem;
+    color: var(--brand-dark);
+  }
+  main h3 {
+    font-family: var(--sans);
+    font-size: 1.05rem;
+    margin: 1.6rem 0 .4rem;
+  }
+  main p { margin: 0 0 1rem; }
+  main ul { margin: 0 0 1rem; padding-left: 1.3rem; }
+  main li { margin-bottom: .45rem; }
+  main li::marker { color: var(--brand); }
+
+  .short {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-left: 6px solid var(--accent);
+    border-radius: 6px;
+    padding: 1.3rem 1.5rem 1rem;
+    margin-bottom: 2.6rem;
+  }
+  .short h2 { margin-top: 0; }
+  .short ul { margin-bottom: .4rem; }
+
+  .table-wrap { overflow-x: auto; margin: 0 0 1.2rem; border: 1px solid var(--rule); border-radius: 6px; background: var(--surface); }
+  table { border-collapse: collapse; width: 100%; min-width: 560px; font-family: var(--sans); font-size: .93rem; line-height: 1.5; }
+  th, td { text-align: left; vertical-align: top; padding: .7rem .9rem; border-bottom: 1px solid var(--rule); }
+  th { background: color-mix(in srgb, var(--brand) 10%, var(--surface)); color: var(--brand-dark); font-weight: 700; }
+  tr:last-child td { border-bottom: 0; }
+  td:first-child { font-weight: 700; white-space: nowrap; }
+
+  .notice {
+    background: var(--accent-soft);
+    border-left: 6px solid var(--accent);
+    border-radius: 6px;
+    padding: 1rem 1.2rem .2rem;
+    margin: 0 0 1.2rem;
+    font-family: var(--sans);
+    font-size: .97rem;
+    line-height: 1.6;
+  }
+  .notice p { margin: 0 0 .8rem; }
+
+  mark.todo {
+    background: var(--accent-soft);
+    color: inherit;
+    padding: .05em .35em;
+    border-radius: 3px;
+    border-bottom: 2px solid var(--accent);
+    font-family: var(--sans);
+    font-size: .95em;
+  }
+
+  footer.site {
+    border-top: 1px solid var(--rule);
+    padding: 1.5rem 1.25rem 2.5rem;
+    text-align: center;
+    font-family: var(--sans);
+    font-size: .88rem;
+    color: var(--muted);
+  }
+
+  @media print {
+    body { background: #fff; color: #000; font-size: 11pt; }
+    header.site { background: #fff; color: #000; padding: 0 0 1rem; border-bottom: 2px solid #000; }
+    header.site p, header.site .updated, .brand span { color: #000; }
+    nav.toc, .skip { display: none; }
+    .layout { display: block; padding: 1rem 0; }
+    .short, .table-wrap, .notice { break-inside: avoid; }
+    a { color: #000; }
+  }
+</style>
+</head>
+<body>
+<a class="skip" href="#content">Skip to the terms</a>
+
+<header class="site">
+  <div class="wrap">
+    <p class="brand">Coop<span>IQ</span></p>
+    <h1>Terms of Service</h1>
+    <p>The rules for using the CoopIQ WhatsApp assistant, mobile app and farm health services. Please read them before you use CoopIQ.</p>
+    <p class="updated">Last updated: 10 October 2026</p>
+  </div>
+</header>
+
+<div class="layout">
+  <nav class="toc" aria-label="Contents">
+    <h2>On this page</h2>
+    <ol>
+      <li><a href="#agreeing">Agreeing to these terms</a></li>
+      <li><a href="#what-coopiq-is">What CoopIQ is and is not</a></li>
+      <li><a href="#who-can-use">Who can use CoopIQ</a></li>
+      <li><a href="#accounts">Your account</a></li>
+      <li><a href="#responsible-use">Using CoopIQ responsibly</a></li>
+      <li><a href="#your-content">Your content</a></li>
+      <li><a href="#our-content">Our content</a></li>
+      <li><a href="#fees">Fees and payments</a></li>
+      <li><a href="#third-parties">Third-party services</a></li>
+      <li><a href="#consultations">Consultations and farm visits</a></li>
+      <li><a href="#availability">Availability and changes</a></li>
+      <li><a href="#disclaimers">Disclaimers</a></li>
+      <li><a href="#liability">Limits on our responsibility</a></li>
+      <li><a href="#ending">Suspension and ending use</a></li>
+      <li><a href="#changes">Changes to these terms</a></li>
+      <li><a href="#law">Governing law and disputes</a></li>
+      <li><a href="#contact">Contact us</a></li>
+    </ol>
+  </nav>
+
+  <main id="content">
+
+    <div class="short">
+      <h2>The short version</h2>
+      <ul>
+        <li>CoopIQ gives general poultry and livestock guidance using AI. It can make mistakes and is not a replacement for a veterinarian.</li>
+        <li>For sick animals, unusual deaths or anything urgent, contact a veterinarian or your nearest veterinary office straight away.</li>
+        <li>You must be 18 or older, give us accurate information, and use CoopIQ lawfully.</li>
+        <li>You keep ownership of what you send us. You allow us to process it so the service works.</li>
+        <li>How we handle your personal information is explained in our <a href="privacy-policy.html">Privacy Policy</a>.</li>
+      </ul>
+    </div>
+
+    <section id="agreeing">
+      <h2>1. Agreeing to these terms</h2>
+      <p>These Terms of Service ("Terms") are an agreement between you and CoopIQ ("CoopIQ", "we", "us" and "our"). They apply when you message the CoopIQ WhatsApp assistant, use the CoopIQ mobile app, or use services we arrange such as tele-consultations and farm visits (together, the "Service").</p>
+      <p>By using the Service, you agree to these Terms and to our <a href="privacy-policy.html">Privacy Policy</a>. If you do not agree, please do not use the Service.</p>
+    </section>
+
+    <section id="what-coopiq-is">
+      <h2>2. What CoopIQ is and is not</h2>
+      <p>CoopIQ helps farmers with poultry and livestock health and management. It can answer questions about housing, feeding, vaccination, disease prevention, biosecurity, budgeting and marketing, and it can suggest possible causes when you describe or photograph a problem.</p>
+      <div class="notice">
+        <p><strong>CoopIQ is not a veterinarian.</strong> Its answers and diagnoses are generated by AI and by a general knowledge base. They are information, not professional advice, and they can be incomplete, out of date or wrong.</p>
+        <p>Always confirm vaccine schedules, medicines, dosages, withdrawal periods and treatments with a qualified veterinarian or agrovet before acting. If many birds or animals are sick or dying, or you see severe signs, contact a veterinarian or veterinary office immediately. Do not wait for CoopIQ.</p>
+      </div>
+      <p>Prices, costs and profit figures are estimates. Real costs and returns depend on your location, market, management and many other things we cannot control.</p>
+    </section>
+
+    <section id="who-can-use">
+      <h2>3. Who can use CoopIQ</h2>
+      <ul>
+        <li>You must be at least 18 years old, or have the permission of a parent or guardian.</li>
+        <li>You must have the legal right to enter into these Terms.</li>
+        <li>You must use your own WhatsApp number and account, or if you use the Service for a business or cooperative, you must have authority to act for it.</li>
+        <li>You must give accurate information when you use the Service.</li>
+      </ul>
+    </section>
+
+    <section id="accounts">
+      <h2>4. Your account</h2>
+      <p>Some features, such as the mobile app, need an account. You are responsible for keeping your password and your device secure, and for what happens under your account. Please tell us straight away if you think someone else has used your account. We may ask you to verify your identity before we act on a request about your account or data.</p>
+    </section>
+
+    <section id="responsible-use">
+      <h2>5. Using CoopIQ responsibly</h2>
+      <p>When you use the Service, you agree not to:</p>
+      <ul>
+        <li>break any law or regulation, or use the Service to harm animals, people or property;</li>
+        <li>send content that is unlawful, abusive, harassing, hateful or sexually explicit;</li>
+        <li>upload images or messages that you do not have the right to share, or that contain other people's private information;</li>
+        <li>try to access other users' data, our systems or our providers' systems without permission;</li>
+        <li>probe, overload, disrupt or reverse engineer the Service, or try to bypass its safeguards;</li>
+        <li>use bots or automated tools to send messages to the Service, or send spam;</li>
+        <li>copy, scrape or resell the Service or its knowledge base, or use them to build a competing product; or</li>
+        <li>pretend to be another person or business.</li>
+      </ul>
+    </section>
+
+    <section id="your-content">
+      <h2>6. Your content</h2>
+      <p>"Your content" means the messages, voice notes, photos and other material you send to the Service. You keep ownership of it.</p>
+      <p>You give us permission to use, store, process and share your content as needed to run and improve the Service and as described in our <a href="privacy-policy.html">Privacy Policy</a>. This includes sending it to the AI and technology providers that help us operate CoopIQ. You confirm that you have the right to give us this permission.</p>
+      <p>We may use content that has been combined and anonymised so that it does not identify you to improve the Service and to produce reports.</p>
+    </section>
+
+    <section id="our-content">
+      <h2>7. Our content</h2>
+      <p>The CoopIQ name and logo, the mobile app, the software, the knowledge base and the way answers are presented belong to CoopIQ or to the people who license them to us. We give you a personal, limited, non-exclusive, non-transferable right to use the Service for your own farming and business needs. You may not use our name or branding without our written permission.</p>
+      <p>If you send us feedback or suggestions, you allow us to use them without owing you anything.</p>
+    </section>
+
+    <section id="fees">
+      <h2>8. Fees and payments</h2>
+      <p>Some parts of the Service may be free and others may be paid, such as consultations, farm visits or equipment like coop sensors. If something costs money, we will tell you the price before you agree to it. Prices may change, but a change will not affect something you have already agreed to and paid for. Unless the law or an agreement with you says otherwise, payments are not refundable once a service has been provided.</p>
+      <p>Using WhatsApp or the app may use mobile data, and your network provider may charge you for it. We are not responsible for those charges.</p>
+    </section>
+
+    <section id="third-parties">
+      <h2>9. Third-party services</h2>
+      <p>CoopIQ runs on services from other companies, including WhatsApp (Meta), Google and others listed in our <a href="privacy-policy.html">Privacy Policy</a>. Your use of WhatsApp is also covered by WhatsApp's own terms and privacy policy. We are not responsible for services that we do not own or control, or for any problem caused by them.</p>
+    </section>
+
+    <section id="consultations">
+      <h2>10. Consultations and farm visits</h2>
+      <p>When we connect you with an agrovet, veterinarian or field officer, that professional is responsible for the advice and treatment they give you. Ask about their fees, and confirm what is included, before you agree to a consultation or visit. You are responsible for decisions you make about your animals, and for providing a safe place and accurate information for any visit.</p>
+    </section>
+
+    <section id="availability">
+      <h2>11. Availability and changes to the service</h2>
+      <p>We work to keep CoopIQ available, but we cannot promise it will always work or be free of errors. The Service may be unavailable because of maintenance, network problems or problems with our providers. We may add, change or remove features, or stop the Service, at any time. If we plan to end the Service, we will try to give you reasonable notice.</p>
+    </section>
+
+    <section id="disclaimers">
+      <h2>12. Disclaimers</h2>
+      <p>The Service is provided "as is" and "as available". To the fullest extent the law allows, we do not promise that the Service or its answers will be accurate, complete, reliable, suitable for your purpose or free from error, and we do not promise that any diagnosis will be correct. Farming involves risk, and we do not guarantee any result, such as healthier animals, lower costs or higher profit.</p>
+    </section>
+
+    <section id="liability">
+      <h2>13. Limits on our responsibility</h2>
+      <p>To the fullest extent the law allows, CoopIQ and the people who work with us will not be responsible for any indirect or consequential loss, or for loss of profit, income, animals, produce or business, that results from using the Service or relying on its answers. If we are found to be responsible to you, our total liability for all claims will not be more than the amount you paid us for the Service in the 12 months before the claim, or <mark class="todo">a fixed amount, if you prefer one</mark> if you paid us nothing.</p>
+      <p>Nothing in these Terms limits responsibility that cannot be limited by law, for example for fraud or for death or personal injury caused by negligence. Some places do not allow certain limits, so parts of this section may not apply to you.</p>
+    </section>
+
+    <section id="ending">
+      <h2>14. Suspension and ending use</h2>
+      <p>You can stop using the Service at any time. You can also ask us to close your account and delete your data using the details in <a href="#contact">Contact us</a>.</p>
+      <p>We may suspend or end your access, with or without notice, if you break these Terms, if your use puts the Service or other people at risk, or if the law requires it. Sections of these Terms that by their nature should continue after you stop using the Service, such as those about content, disclaimers, liability and governing law, will continue to apply.</p>
+    </section>
+
+    <section id="changes">
+      <h2>15. Changes to these terms</h2>
+      <p>We may update these Terms from time to time. When we do, we will change the "Last updated" date at the top of this page, and if the changes are significant we will tell you through WhatsApp or the app. If you keep using the Service after a change, you accept the updated Terms. If you do not accept them, please stop using the Service.</p>
+    </section>
+
+    <section id="law">
+      <h2>16. Governing law and disputes</h2>
+      <p>These Terms are governed by the laws of <mark class="todo">country of registration</mark>. If we have a disagreement, please contact us first so we can try to resolve it informally. If we cannot, the courts of <mark class="todo">country of registration</mark> will have authority to decide it, unless the law of the place where you live gives you the right to bring a claim somewhere else.</p>
+    </section>
+
+    <section id="contact">
+      <h2>17. Contact us</h2>
+      <p>If you have questions about these Terms, contact us:</p>
+      <ul>
+        <li><strong>Email:</strong> <mark class="todo">your contact email</mark></li>
+        <li><strong>WhatsApp:</strong> message us on the CoopIQ WhatsApp number.</li>
+        <li><strong>Address:</strong> <mark class="todo">your registered business address</mark></li>
+      </ul>
+    </section>
+
+  </main>
+</div>
+
+<footer class="site">
+  &copy; <span id="year">2026</span> CoopIQ. All rights reserved. <a href="privacy-policy.html">Privacy Policy</a>
+</footer>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
